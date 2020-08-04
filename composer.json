@@ -1,0 +1,38 @@
+{
+    "name": "vhnh/taggable",
+    "license": "MIT",
+    "description": "Tag your eloquent models",
+    "homepage": "http://github.com/vhnh/taggable",
+    "authors": [
+        {
+            "name": "Tobias Thaden",
+            "email": "hello@tobiasthaden.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vhnh/taggable/issues",
+        "source": "https://github.com/vhnh/taggable"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Vhnh\\Taggable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vhnh\\Taggable\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
